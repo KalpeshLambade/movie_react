@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 1.15vw;
+}
+.adj-img{
+    height: 100%;
+    width: 100%;
+}
+.display{
+    display: flex;
+    align-items: center;
+}
+.border{
+    border:1px solid white;
+    padding: 4px;
+    border-radius: 3px;
+}
+.cursor{
+    cursor: pointer;
+}
+.log_link{
+    color:#01b4e4;
+    cursor: pointer;
+}
+/* Navbar */
+nav{
+    height: 8vh;
+    width:100vw;
+    background-color: #032541;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav >div{
+    /* border:1px solid white; */
+    width:85%;
+    height: 90%;
+    justify-content: space-between;
+     font-size: 0.5rem;
+     color: white;
+    
+}
+.nav_left{
+     /* border:1px solid white; */
+     width:35%;
+     height: 100%;
+     justify-content: space-around;
+     cursor: pointer;
+}
+.nav_right{
+     /* border:1px solid white; */
+     width:30%;
+     height: 100%;
+     justify-content: space-around;
+     cursor: pointer;
+}
+.nav_logo{
+    /* border:1px solid white; */
+    width:30%;
+    height: 100%;
+}
+/* Register */
+#register{
+    height: 75vh;
+    width:100vw;
+    /* border:1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#register >div{
+    /* border:1px solid red; */
+    width:85%;
+    height: 90%;
+    justify-content: space-around;
+}
+.register_left{
+    /* border:1px solid red; */
+    border:1px solid grey;
+    width: 20%;
+    height: 100%;
+    border-radius:10px ;
+    overflow: hidden;
+}
+.register_left_top{
+    /* border:1px solid blue; */
+    height: 20%;
+    background-color: #01b4e4;
+    color: white;
+}
+.register_left_top>p{
+    /* border:1px solid red; */
+    margin-left: 10%;
+    font-size: 1.2rem;
+    width:70%;
+}
+.register_left_bot{
+    height: 80%;
+    justify-content: space-evenly;
+}
+.register_left_bot >ul{
+    /* border:1px solid red; */
+    height: 100%;
+    width:80%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.register_left_bot >ul >li{
+    font-size: 0.95rem;
+    color: rgb(79, 76, 76);
+}
+.register_right{
+    /* border:1px solid red; */
+    width: 75%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.register_right >div{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    /* border:1px solid red; */
+    width: 100%;
+    height: 20%;
+    font-size: 0.9rem;
+}
+.register_right >div>p:nth-child(1){
+    font-weight: 800;
+    font-size: 1.1rem;
+}
+.register_right >form{
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 75%;
+    width: 100%;
+    /* border:1px solid red; */
+    align-items: flex-start;
+}
+.register_right >form >input{
+    height: 10%;
+    width:100%;
+    padding-left: 10px;
+    border: 1px solid grey;
+    outline: none;
+}
+.register_right >form >input[type="submit"]{
+    width:10%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #01b4e4;
+    color: white;
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 0;
+    cursor: pointer;
+}
+.register_right >form >label{
+    font-size: 0.9rem;
+}
+/* Index */
+#index_page{
+    /* border: 1px solid red; */
+    /* height: 100vh;
+    width:100vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#index_page  >div{
+    /* border: 1px solid blue; */
+    justify-content: space-between;
+    width:90%;
+}
+.index_article{
+    /* border: 1px solid red; */
+    /* height: 100vh; */
+    width:100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.index_article >div{
+    border: none;
+    height: 45vh;
+    width:18%;
+    margin: 10px 0;
+    box-shadow: 2px 3px 8px rgba(16, 15, 15, 0.1);
+}
+.index_article_top{
+    /* border: 1px solid blue; */
+    height: 75%;
+}
+.index_article_bot{
+    /* border: 1px solid blue; */
+    height: 25%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: first baseline;
+}
+.index_article_bot >p{
+    font-size: 0.9rem;
+}

@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Evil Dead Rise",
+        "date": "Apr 12, 2023",
+        "image": "https://www.themoviedb.org/t/p/w220_and_h330_face/5ik4ATKmNtmJU6AYD0bLm56BCVM.jpg",
+        "rating": 72
+    },
+    {
+        "id": 2,
+        "name": "Ant-Man and the Wasp: Quantumania",
+        "date": "Feb 15, 2023",
+        "image": "https://www.themoviedb.org/t/p/w220_and_h330_face/qnqGbB22YJ7dSs4o6M7exTpNxPz.jpg",
+        "rating": 65
+    },
+    {
+        "id": 3,
+        "name": "The Super Mario Bros. Movie",
+        "date": "Apr 05, 2023",
+        "image": "https://www.themoviedb.org/t/p/w220_and_h330_face/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg",
+        "rating": 74
+    },
+    {
+        "id": 4,
+        "name": "The Pope's Exorcist",
+        "date": "Apr 05, 2023",
+        "image": "https://www.themoviedb.org/t/p/w220_and_h330_face/4IjRR2OW2itjQWQnmlUzvwLz9DQ.jpg",
+        "rating": 72
+    },
+    {
+        "id": 5,
+        "name": "Guardians of the Galaxy Vol. 3",
+        "date": "May 03, 2023",
+        "image": "https://www.themoviedb.org/t/p/w220_and_h330_face/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg",
+        "rating": 82
+    }
+]
